@@ -64,7 +64,7 @@ def callback_message(callback):
         symbols(callback.message)
 
     elif callback.data == "other":
-     other(callback.message)
+        other(callback.message)
 
     elif callback.data == "back":
         password(callback.message)
